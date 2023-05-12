@@ -2,8 +2,6 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
-
 This project cannot adhere to [Semantic Versioning](http://semver.org/), because it builds on TeXLive, which introcuces breaking changes now and then.
 Thus, each new version would lead to a new major version.
 Instead, we version `YYYY-R`, where `YYYY` is TeXLive version this image is based on and `R` is numbering different releases in that cycle using characters.
@@ -12,7 +10,12 @@ We use letters instead of numbers to avoid confusion with the automatic builds s
 
 ## [edge]
 
-This version is continuosly build on [DANTE e.V.'s docker-texlive `edge` build](https://github.com/dante-ev/docker-texlive/).
+This version is continuously build on [DANTE e.V.'s docker-texlive `edge` build](https://github.com/dante-ev/docker-texlive/).
+
+## [2023-A] - 2023-05-12
+
+- Base on [DANTE e.V.'s docker-texlive 2023-A](https://github.com/dante-ev/docker-texlive/releases/tag/2023-A)
+- Added support for `extra_font_packages` to install fonts from zip files
 
 ## [2020-A] - 2021-09-18
 
@@ -47,7 +50,8 @@ This version is continuosly build on [DANTE e.V.'s docker-texlive `edge` build](
 
 Initial public release
 
-[edge]: https://github.com/dante-ev/latex-action/compare/2021-C...HEAD
+[edge]: https://github.com/dante-ev/latex-action/compare/2023-A...HEAD
+[2023-A]: https://github.com/dante-ev/latex-action/compare/2021-C...2023-A
 [2021-C]: https://github.com/dante-ev/latex-action/compare/2021-B...2021-C
 [2021-B]: https://github.com/dante-ev/latex-action/compare/2021-A...2021-B
 [2021-A]: https://github.com/dante-ev/latex-action/compare/v0.2.0...2021-A
