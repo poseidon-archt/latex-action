@@ -1,8 +1,8 @@
 # latex-action [![GitHub Actions Status](https://github.com/dante-ev/latex-action/workflows/Test%20Github%20Action/badge.svg)](https://github.com/dante-ev/latex-action/actions)
 
-> GitHub Action to compile LaTeX documents.
+🚧 For a more lightweight solution, head to https://github.com/zauguin/install-texlive 🚧
 
-This actions runs on docker using a [maximal TeXLive environment](https://hub.docker.com/r/danteev/texlive/) installed.
+GitHub Action to compile LaTeX documents. This actions runs on docker using a [maximal TeXLive environment](https://hub.docker.com/r/danteev/texlive/) installed.
 
 ## Inputs
 
