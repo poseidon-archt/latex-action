@@ -1,6 +1,6 @@
 name: LaTeX compilation
 description: Compiles latex documents using pdflatex, lualatex, xelatex. Full TeXLive distribution.
-author: Cheng XU, Oliver Kopp
+author: Cheng XU, Olivger Kopp
 inputs:
   root_file:
     description: The root LaTeX file to be compiled
